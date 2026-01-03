@@ -1,6 +1,6 @@
 import React from 'react'
 
-const CustomerDashboard = () => {
+const RestaurantCard = () => {
   return (
     <div>
       
@@ -8,4 +8,4 @@ const CustomerDashboard = () => {
   )
 }
 
-export default CustomerDashboard
+export default RestaurantCard
