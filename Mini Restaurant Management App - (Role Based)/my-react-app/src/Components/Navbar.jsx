@@ -2,7 +2,7 @@ import React from 'react'
 
 const Navbar = ({search,setSearch,filter,setFilter,parking,setParking}) => {
   return (
-    <div>
+    <div className='navbar'>
       <div>
         <input type='text' placeholder='Search' value={search} onChange={(e)=>setSearch(e.target.value)} />
         <select value = {filter} onChange={(e)=>setFilter(e.target.value)} >
